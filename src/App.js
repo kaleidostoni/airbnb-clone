@@ -20,14 +20,14 @@ class App extends Component {
         }}
         >
         <nav className="nav">
-                <div className="title">airbeds</div>
+                <div className="title">Airbeds</div>
         </nav>
           <div className="left-col">
             <DataRange />
             <NumberBox />
             <RangeSlider />
-            <ResultCard />
           </div>
+            <ResultCard />
         </ReactiveBase>
       </section>
     );

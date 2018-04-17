@@ -8,5 +8,6 @@ export default () => (
     title="When"
     numberOfMonths={1}
     queryFormat="basic_date" // yyyyMMdd
+    initialMonth={new Date('04-01-2017')}
 />
 )
